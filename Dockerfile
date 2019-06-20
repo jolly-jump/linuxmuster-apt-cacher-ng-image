@@ -2,8 +2,12 @@ FROM debian:stable-slim
 LABEL maintainer="Tobias Küchel <devel@zukuul.de>"
 
 # apt install packages
-RUN apt-get update && apt-get -y full-upgrade
-RUN apt-get -y install --no-install-recommends apt-cacher-ng cron rsyslog
+RUN apt-get update \
+    && apt-get -y full-upgrade \
+    && apt-get -y install --no-install-recommends apt-cacher-ng cron rsyslog \
+    && apt-get clean -y \
+    && rm -rf /var/lib/apt/lists/*
+
 RUN mkdir /app
 COPY entrypoint.sh /app/
 #COPY apt-cacher-ng-shrink /etc/cron.weekly/

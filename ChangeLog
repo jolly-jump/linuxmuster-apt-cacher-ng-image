@@ -1,5 +1,9 @@
 2019-06-20  T. Küchel  <devel@zukuul.de>
 
+	* update Dockerfile to best practice keeping image small
+
+2019-06-20  T. Küchel  <devel@zukuul.de>
+
 	* add Changelog file
 	* add rebuild.sh script
 	* bump new upstream parent image
