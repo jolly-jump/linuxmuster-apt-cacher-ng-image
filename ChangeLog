@@ -1,0 +1,6 @@
+2019-06-20  T. Küchel  <devel@zukuul.de>
+
+	* add Changelog file
+	* add rebuild.sh script
+	* bump new upstream parent image
+
