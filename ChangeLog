@@ -1,3 +1,7 @@
+2019-12-29  T.Küchel  <devel@zukuul.de>
+
+	* upstream newer debian:stable-slim
+
 2019-12-03  T.Küchel  <devel@zukuul.de>
 
 	* rebuild.sh refined
