@@ -1,5 +1,6 @@
 2020-07-03  T.Küchel  <devel@zukuul.de>
 
+	* add build options to rebuild.sh
 	* internal update libssl
 
 2020-06-16  T.Küchel  <devel@zukuul.de>
