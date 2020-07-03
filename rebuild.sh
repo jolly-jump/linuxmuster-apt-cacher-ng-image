@@ -9,7 +9,7 @@ docker inspect debian:${VERSION} | grep RepoTags -A 3
 git commit -a -m"linuxmuster-apt-cacher-ng: debian:${VERSION}" 
 
 git_log=$(git log --oneline | head -1 | cut -d " " -f 1)
-echo "Press enter to build with: docker build -t humbihupf/linuxmuster-apt-cacher-ng:${VERSION}-$git_log ."
+echo "Press enter to build with: docker build $buildoptions -t humbihupf/linuxmuster-apt-cacher-ng:${VERSION}-$git_log ."
 read
 docker build $buildoptions -t humbihupf/linuxmuster-apt-cacher-ng:$VERSION-$git_log .
 [ $? -ne 0 ] && echo error && exit 1
