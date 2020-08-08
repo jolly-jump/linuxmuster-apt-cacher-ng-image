@@ -1,3 +1,7 @@
+2020-08-08  T.Küchel  <devel@zukuul.de>
+
+	* updated debian-slim
+
 2020-07-03  T.Küchel  <devel@zukuul.de>
 
 	* add build options to rebuild.sh
