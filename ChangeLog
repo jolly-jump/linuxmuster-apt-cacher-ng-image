@@ -1,3 +1,7 @@
+2020-09-11  T.Küchel  <devel@zukuul.de>
+
+	* new debian:stable-slim upstream
+
 2020-08-08  T.Küchel  <devel@zukuul.de>
 
 	* updated debian-slim
